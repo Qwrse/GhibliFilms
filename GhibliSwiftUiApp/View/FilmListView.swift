@@ -19,7 +19,7 @@ struct FilmListView: View {
                 }
             }
             .navigationDestination(for: Film.self) { film in
-                FilmDetailScreen(film: film)
+                FilmDetailScreen(film: film, favoritesViewModel: favoritesViewModel)
             }
         }
     }
@@ -28,10 +28,6 @@ struct FilmListView: View {
 private struct FilmRaw: View {
     let film: Film
     let favoritesViewModel: FavoritesViewModel
-    
-    var isFavorite: Bool {
-        return favoritesViewModel.isFavorite(filmID: film.id)
-    }
     
     var body: some View {
         HStack(alignment: .top) {
@@ -42,13 +38,9 @@ private struct FilmRaw: View {
                     Text(film.title)
                         .bold()
                     Spacer()
-                    Button {
-                        favoritesViewModel.toggleFavorite(filmID: film.id)
-                    } label: {
-                        Image(systemName: isFavorite ? "heart.fill" : "heart")
-                            .foregroundStyle(isFavorite ? .pink : .gray)
-                    }
+                    FavoriteButton(filmID: film.id, favoritesViewModel: favoritesViewModel)
                 }
+                .padding(.bottom, 5)
                 Text("Directed by \(film.director)")
                     .font(.subheadline)
                     .foregroundStyle(Color.secondary)

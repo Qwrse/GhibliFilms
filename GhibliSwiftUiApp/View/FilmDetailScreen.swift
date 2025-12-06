@@ -10,6 +10,7 @@ import SwiftUI
 struct FilmDetailScreen: View {
     let film: Film
     @State var vm = FilmDetailViewModel()
+    let favoritesViewModel: FavoritesViewModel
     
     var body: some View {
         ScrollView {
@@ -38,16 +39,17 @@ struct FilmDetailScreen: View {
                 }
             }
             .padding()
-            .task {
-                await vm.fetch(for: film)
-            }
+        }
+        .toolbar {
+            FavoriteButton(filmID: film.id, favoritesViewModel: favoritesViewModel)
+        }
+        .task {
+            await vm.fetch(for: film)
         }
     }
-    
-    
 }
 
 #Preview {
     let films = try! MockGhibliService().fetchFilms()
-    FilmDetailScreen(film: films[1])
+    FilmDetailScreen(film: films[1], favoritesViewModel: FavoritesViewModel())
 }

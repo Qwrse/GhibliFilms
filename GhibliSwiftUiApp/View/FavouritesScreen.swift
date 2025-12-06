@@ -12,7 +12,12 @@ struct FavoritesScreen: View {
     let favoritesViewModel: FavoritesViewModel
 
     var films: [Film] {
-        return []
+        guard case let .loaded(allFilms) = filmsViewModel.state else {
+            return []
+        }
+        return allFilms.filter {
+            favoritesViewModel.isFavorite(filmID: $0.id)
+        }
     }
     
     var body: some View {

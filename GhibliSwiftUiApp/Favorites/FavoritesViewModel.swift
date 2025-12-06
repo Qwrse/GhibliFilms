@@ -33,6 +33,7 @@ class FavoritesViewModel {
         } else {
             favoriteIDs.insert(filmID)
         }
+        save()
     }
     
     func isFavorite(filmID: String) -> Bool {

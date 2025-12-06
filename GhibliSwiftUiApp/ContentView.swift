@@ -26,6 +26,9 @@ struct ContentView: View {
                 SearchScreen()
             }
         }
+        .task {
+            await filmsViewModel.fetch()
+        }
     }
 }
 
