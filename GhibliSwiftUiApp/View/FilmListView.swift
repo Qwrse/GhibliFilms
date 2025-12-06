@@ -23,7 +23,7 @@ struct FilmListView: View {
                 List(films) { film in
                     NavigationLink(value: film) {
                         HStack {
-                            FilmImageView(urlPath: film.bannerImage)
+                            FilmImageView(urlPath: film.image)
                                 .frame(width: 100, height: 150)
                             Text(film.title)
                         }

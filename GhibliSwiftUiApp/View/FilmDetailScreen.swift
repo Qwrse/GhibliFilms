@@ -13,7 +13,7 @@ struct FilmDetailScreen: View {
     
     var body: some View {
         ScrollView {
-            FilmImageView(urlPath: film.bannerImage)
+            FilmImageView(urlPath: film.image)
                 .containerRelativeFrame(.horizontal)
                 .frame(minHeight: 200)
 
@@ -48,5 +48,6 @@ struct FilmDetailScreen: View {
 }
 
 #Preview {
-    FilmDetailScreen(film: .example)
+    let films = try! MockGhibliService().fetchFilms()
+    FilmDetailScreen(film: films[1])
 }

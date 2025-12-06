@@ -18,33 +18,10 @@ struct FilmImageView: View {
             .resizable()
             .scaledToFit()
             .containerRelativeFrame(.horizontal)
-        
-        AsyncImage(url: URL(string: urlPath)) { phase in
-            switch phase {
-            case .empty:
-                Color(white: 0.8).overlay {
-                    ProgressView()
-                        .controlSize(.large)
-                }
-            case .success(let image):
-                image
-                    .resizable()
-                    .scaledToFit()
-            case .failure(_):
-                Image("filmPlaceholder")
-                    .resizable()
-                    .scaledToFit()
-            @unknown default:
-                Image("filmPlaceholder")
-                    .resizable()
-                    .scaledToFit()
-            }
-        }
     }
 }
 
 #Preview {
     FilmImageView(urlPath: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/npOnzAbLh6VOIu3naU5QaEcTepo.jpg")
-        .frame(maxHeight: 200)
-    
+        .frame(maxHeight: 300)
 }

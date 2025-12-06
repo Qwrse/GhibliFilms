@@ -55,11 +55,14 @@ import Playgrounds
 
 #Playground {
     let vm: FilmDetailViewModel = FilmDetailViewModel()
-    let film = try await MockGhibliService().fetchFilm()
+    let films = try await MockGhibliService().fetchFilms()
+    let film = films[1]
     try await vm.fetch(for: film)
     if case let .loaded(people) = vm.state {
         for person in people {
             print(person)
         }
+    } else if case let .error(message) = vm.state {
+        print(message)
     }
 }

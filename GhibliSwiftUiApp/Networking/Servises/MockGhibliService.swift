@@ -32,7 +32,7 @@ struct MockGhibliService: GhibliService {
         return sampleData.films
     }
     
-    func fetchPerson(from URLString: String) async throws -> Person {
+    func fetchPerson(from URLString: String) throws -> Person {
         let data = try loadSampleData()
         return data.people.first!
     }
