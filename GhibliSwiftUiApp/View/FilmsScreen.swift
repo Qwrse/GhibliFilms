@@ -8,11 +8,33 @@
 import SwiftUI
 
 struct FilmsScreen: View {
+    let filmsViewModel: FilmsViewModel
+
     var body: some View {
-        Text("Films Screen")
+        NavigationStack {
+            Group {
+                switch filmsViewModel.state {
+                case .idle:
+                    Text("No films yet")
+                case .loading:
+                    ProgressView {
+                        Text("Loading...")
+                    }
+                case .loaded(let films):
+                    FilmListView(films: films)
+                case .error(let error):
+                    Text(error)
+                        .foregroundColor(.pink)
+                }
+            }
+                .navigationTitle("Ghibli Movies")
+        }
+        .task {
+            await filmsViewModel.fetch()
+        }
     }
 }
 
 #Preview {
-    FilmsScreen()
+    FilmsScreen(filmsViewModel: FilmsViewModel(service: MockGhibliService()))
 }
