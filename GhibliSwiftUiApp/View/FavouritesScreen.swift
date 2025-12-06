@@ -1,5 +1,5 @@
 //
-//  FavouritesScreen.swift
+//  FavoritesScreen.swift
 //  GhibliSwiftUiApp
 //
 //  Created by dimss on 06/12/2025.
@@ -7,8 +7,9 @@
 
 import SwiftUI
 
-struct FavouritesScreen: View {
+struct FavoritesScreen: View {
     let filmsViewModel: FilmsViewModel
+    let favoritesViewModel: FavoritesViewModel
 
     var films: [Film] {
         return []
@@ -18,16 +19,17 @@ struct FavouritesScreen: View {
         NavigationStack {
             Group {
                 if films.isEmpty {
-                    ContentUnavailableView("No favourites yet", systemImage: "heart")
+                    ContentUnavailableView("No favorites yet", systemImage: "heart")
                 } else {
-                    FilmListView(films: films)
+                    FilmListView(films: films, favoritesViewModel: favoritesViewModel)
                 }
             }
-                .navigationTitle("Favourites")
+                .navigationTitle("Favorites")
         }
     }
 }
 
 #Preview {
-    FavouritesScreen(filmsViewModel: FilmsViewModel(service: MockGhibliService()))
+    FavoritesScreen(filmsViewModel: FilmsViewModel(service: MockGhibliService()),
+                    favoritesViewModel: FavoritesViewModel())
 }
