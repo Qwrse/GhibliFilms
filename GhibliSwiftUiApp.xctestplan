@@ -1,0 +1,39 @@
+{
+  "configurations" : [
+    {
+      "id" : "E5003F02-8819-4559-8268-807122C7D131",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:GhibliSwiftUiApp.xcodeproj",
+      "identifier" : "1A0E851B2EE0A41600B7FCC6",
+      "name" : "GhibliSwiftUiApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:GhibliSwiftUiApp.xcodeproj",
+        "identifier" : "1A0E85282EE0A41700B7FCC6",
+        "name" : "GhibliSwiftUiAppTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:GhibliSwiftUiApp.xcodeproj",
+        "identifier" : "1A0E85322EE0A41700B7FCC6",
+        "name" : "GhibliSwiftUiAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

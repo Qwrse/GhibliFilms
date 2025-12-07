@@ -27,6 +27,7 @@
 		1A0E851C2EE0A41600B7FCC6 /* GhibliSwiftUiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhibliSwiftUiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0E85292EE0A41700B7FCC6 /* GhibliSwiftUiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhibliSwiftUiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0E85332EE0A41700B7FCC6 /* GhibliSwiftUiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhibliSwiftUiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1E7D7F2EE4AAA40023A48A /* GhibliSwiftUiApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = GhibliSwiftUiApp.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		1A0E85132EE0A41600B7FCC6 = {
 			isa = PBXGroup;
 			children = (
+				1A1E7D7F2EE4AAA40023A48A /* GhibliSwiftUiApp.xctestplan */,
 				1A0E851E2EE0A41600B7FCC6 /* GhibliSwiftUiApp */,
 				1A0E852C2EE0A41700B7FCC6 /* GhibliSwiftUiAppTests */,
 				1A0E85362EE0A41700B7FCC6 /* GhibliSwiftUiAppUITests */,

@@ -1,0 +1,249 @@
+{
+  "" : {
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiApp-primary.dia",
+    "emit-module-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiApp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiApp-primary-emit-module.dia",
+    "pch" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiApp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiApp-primary.swiftdeps"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/ContentView.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Favorites/FavoritesViewModel.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoritesViewModel.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoritesViewModel.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoritesViewModel.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoritesViewModel.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoritesViewModel.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoritesViewModel.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoritesViewModel.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoritesViewModel~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Favorites/Services/DefaultFavoriteService.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultFavoriteService.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultFavoriteService.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultFavoriteService.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultFavoriteService.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultFavoriteService.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultFavoriteService.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultFavoriteService.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultFavoriteService~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Favorites/Services/FavoriteService.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteService.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteService.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteService.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteService.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteService.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteService.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteService.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteService~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/GhibliSwiftUiAppApp.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiAppApp.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiAppApp.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiAppApp.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiAppApp.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiAppApp.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiAppApp.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiAppApp.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliSwiftUiAppApp~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Models/Film.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Film.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Film.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Film.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Film.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Film.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Film.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Film.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Film~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Models/Person.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Person.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Person.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Person.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Person.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Person.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Person.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Person.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/Person~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Networking/APIError.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/APIError.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/APIError.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/APIError.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/APIError.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/APIError.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/APIError.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/APIError.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/APIError~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Networking/FilmDetailViewModel.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailViewModel.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailViewModel.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailViewModel.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailViewModel.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailViewModel.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailViewModel.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailViewModel.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailViewModel~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Networking/FilmsViewModel.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsViewModel.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsViewModel.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsViewModel.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsViewModel.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsViewModel.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsViewModel.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsViewModel.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsViewModel~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Networking/LoadingState.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/LoadingState.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/LoadingState.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/LoadingState.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/LoadingState.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/LoadingState.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/LoadingState.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/LoadingState.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/LoadingState~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Networking/SearchViewModel.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchViewModel.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchViewModel.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchViewModel.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchViewModel.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchViewModel.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchViewModel.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchViewModel.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchViewModel~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Networking/Servises/DefaultGhibliService.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultGhibliService.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultGhibliService.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultGhibliService.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultGhibliService.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultGhibliService.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultGhibliService.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultGhibliService.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/DefaultGhibliService~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Networking/Servises/GhibliService.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliService.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliService.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliService.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliService.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliService.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliService.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliService.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/GhibliService~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/Networking/Servises/MockGhibliService.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/MockGhibliService.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/MockGhibliService.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/MockGhibliService.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/MockGhibliService.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/MockGhibliService.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/MockGhibliService.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/MockGhibliService.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/MockGhibliService~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/View/FavoriteButton.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteButton.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteButton.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteButton.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteButton.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteButton.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteButton.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteButton.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavoriteButton~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/View/FavouritesScreen.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavouritesScreen.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavouritesScreen.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavouritesScreen.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavouritesScreen.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavouritesScreen.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavouritesScreen.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavouritesScreen.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FavouritesScreen~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/View/FilmDetailScreen.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailScreen.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailScreen.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailScreen.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailScreen.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailScreen.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailScreen.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailScreen.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmDetailScreen~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/View/FilmImageView.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmImageView.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmImageView.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmImageView.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmImageView.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmImageView.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmImageView.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmImageView.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmImageView~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/View/FilmListView.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmListView.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmListView.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmListView.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmListView.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmListView.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmListView.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmListView.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmListView~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/View/FilmsScreen.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsScreen.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsScreen.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsScreen.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsScreen.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsScreen.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsScreen.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsScreen.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/FilmsScreen~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/View/SearchScreen.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchScreen.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchScreen.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchScreen.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchScreen.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchScreen.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchScreen.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchScreen.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SearchScreen~partial.swiftmodule"
+  },
+  "/Users/dimss/code/GhibliSwiftUiApp/GhibliSwiftUiApp/View/SettingsScreen.swift" : {
+    "const-values" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SettingsScreen.swiftconstvalues",
+    "dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SettingsScreen.d",
+    "diagnostics" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SettingsScreen.dia",
+    "index-unit-output-path" : "/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SettingsScreen.o",
+    "llvm-bc" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SettingsScreen.bc",
+    "object" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SettingsScreen.o",
+    "swift-dependencies" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SettingsScreen.swiftdeps",
+    "swiftmodule" : "/Users/dimss/code/GhibliSwiftUiApp/DerivedData/Build/Intermediates.noindex/GhibliSwiftUiApp.build/Debug-iphoneos/GhibliSwiftUiApp.build/Objects-normal/arm64/SettingsScreen~partial.swiftmodule"
+  }
+}

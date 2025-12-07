@@ -9,9 +9,23 @@ import Testing
 @testable import GhibliSwiftUiApp
 
 struct GhibliSwiftUiAppTests {
+    let service = MockGhibliService()
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    @MainActor
+    @Test func testIdle() async throws {
+        let viewModel = SearchViewModel(service: service)
+        #expect(viewModel.state.data == nil)
+        if case .idle = viewModel.state {
+        } else {
+            Issue.record("Expected idle state")
+        }
+    }
+
+    @MainActor
+    @Test func testTotoro() async throws {
+        let viewModel = SearchViewModel(service: service)
+        await viewModel.fetch(for: "totoro")
+        #expect(viewModel.state.data?.count ?? 0 >= 1)
     }
 
 }

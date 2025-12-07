@@ -17,6 +17,5 @@ struct DefaultFavoriteService: FavoriteService {
     
     func save(favoriteIDs: Set<String>) {
         UserDefaults.standard.set(Array(favoriteIDs), forKey: favoritesKey)
-        print("save: \(favoriteIDs)")
     }
 }

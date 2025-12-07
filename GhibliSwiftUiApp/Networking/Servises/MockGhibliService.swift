@@ -37,6 +37,10 @@ struct MockGhibliService: GhibliService {
         return data.people.first!
     }
     
+    func searchFilms(for searchTerm: String) async throws -> [Film] {
+        return []
+    }
+    
     // MARK: for preview and testing only
     
     func fetchFilm() -> Film {

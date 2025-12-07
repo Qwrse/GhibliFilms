@@ -12,21 +12,14 @@ import Foundation
 class FilmDetailViewModel {
     let service: GhibliService
     
-    enum State: Equatable {
-        case idle
-        case loading
-        case loaded([Person])
-        case error(String)
-    }
-    
-    var state: State = .idle
+    var state: LoadingState<[Person]> = .idle
     
     init(service: GhibliService = DefaultGhibliService()) {
         self.service = service
     }
     
     func fetch(for film: Film) async {
-        guard state != .loading else {
+        guard !state.isLoading else {
             return
         }
         state = .loading
@@ -55,9 +48,9 @@ import Playgrounds
 
 #Playground {
     let vm: FilmDetailViewModel = FilmDetailViewModel()
-    let films = try await MockGhibliService().fetchFilms()
+    let films = try MockGhibliService().fetchFilms()
     let film = films[1]
-    try await vm.fetch(for: film)
+    await vm.fetch(for: film)
     if case let .loaded(people) = vm.state {
         for person in people {
             print(person)

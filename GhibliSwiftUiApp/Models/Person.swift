@@ -27,8 +27,8 @@ struct Person: Codable, Identifiable, Equatable {
 #Playground {
     let url = URL(string: "https://ghibliapi.vercel.app/people")!
     do {
-        let (data, response) = try await URLSession.shared.data(from: url)
-        try JSONDecoder().decode([Person].self, from: data)
+        let (data, _) = try await URLSession.shared.data(from: url)
+        print(try JSONDecoder().decode([Person].self, from: data))
     } catch {
         print(error)
     }
