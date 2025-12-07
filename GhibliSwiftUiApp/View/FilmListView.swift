@@ -11,6 +11,7 @@ struct FilmListView: View {
     var films: [Film]
     let favoritesViewModel: FavoritesViewModel
     
+    // todo: Why background color changes when list appears?
     var body: some View {
         NavigationStack {
             List(films) { film in

@@ -39,4 +39,9 @@ class FavoritesViewModel {
     func isFavorite(filmID: String) -> Bool {
         return favoriteIDs.contains(filmID)
     }
+    
+    func removeAll() {
+        self.favoriteIDs.removeAll()
+        save()
+    }
 }

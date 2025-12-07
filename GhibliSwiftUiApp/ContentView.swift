@@ -21,7 +21,7 @@ struct ContentView: View {
                 FavoritesScreen(filmsViewModel: filmsViewModel, favoritesViewModel: favoritesViewModel)
             }
             Tab("Settings", systemImage: "gear") {
-                SettingsScreen()
+                SettingsScreen(favoritesViewModel: favoritesViewModel)
             }
             Tab(role: .search) {
                 SearchScreen(searchViewModel: searchViewModel, favoritesViewModel: favoritesViewModel)

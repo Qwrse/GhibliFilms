@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct GhibliSwiftUiAppApp: App {
+    @AppStorage("useLightMode") var useLightMode: Bool = false
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(useLightMode ? .light : .dark)
         }
     }
 }
