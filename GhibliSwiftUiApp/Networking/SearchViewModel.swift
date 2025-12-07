@@ -7,9 +7,13 @@
 
 import Foundation
 
+@Observable
 class SearchViewModel {
     var state: LoadingState<[Film]> = .idle
+
+    @ObservationIgnored
     private let service: GhibliService
+    @ObservationIgnored
     private var lastSearchTerm = ""
     
     init(service: GhibliService = DefaultGhibliService()) {
@@ -28,8 +32,6 @@ class SearchViewModel {
             state = .loaded(films)
         } catch let error as APIError {
             state = .error(error.errorDescription ?? "unknow error")
-        } catch let error as CancellationError {
-            state = .idle
         } catch {
             state = .error("unknow error")
         }
