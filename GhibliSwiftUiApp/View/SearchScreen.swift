@@ -17,13 +17,17 @@ struct SearchScreen: View {
             VStack {
                 switch searchViewModel.state {
                 case .idle:
-                    Text("Show search here")
+                    ContentUnavailableView("Show search here", systemImage: "magnifyingglass")
                 case .loading:
                     ProgressView()
                 case .loaded(let films):
-                    FilmListView(films: films, favoritesViewModel: favoritesViewModel)
-                case .error(let error):
-                    Text(error).foregroundStyle(Color.pink)
+                    if films.isEmpty {
+                        ContentUnavailableView("No films found", systemImage: "questionmark.circle")
+                    } else {
+                        FilmListView(films: films, favoritesViewModel: favoritesViewModel)
+                    }
+                case .error(_):
+                    ContentUnavailableView("Something went wrong, try again", systemImage: "xmark.circle")
                 }
             }
         }
