@@ -76,11 +76,14 @@ struct FilmDetailScreen: View {
                         Text("Loading...")
                     }
                 case .loaded(let people):
+                    Divider()
+                    Text("People").font(.title3).bold()
+                        .padding(.bottom, 5)
                     ForEach(people) { person in
                         Text(person.name)
                     }
                 case .error(let message):
-                    Text(message).foregroundStyle(Color.pink)
+                    EmptyView()
                 }
             }
             .padding()
@@ -96,5 +99,5 @@ struct FilmDetailScreen: View {
 
 #Preview {
     let films = try! MockGhibliService().fetchFilms()
-    FilmDetailScreen(film: films[1], favoritesViewModel: FavoritesViewModel())
+    FilmDetailScreen(film: films[0], favoritesViewModel: FavoritesViewModel())
 }

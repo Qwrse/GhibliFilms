@@ -40,7 +40,15 @@ struct DefaultGhibliService: GhibliService {
         return films
     }
     
+    private func isValuePersonURL(_ string: String) -> Bool {
+        let prefix = "https://ghibliapi.vercel.app/people/"
+        return string.hasPrefix(prefix) && string.count > prefix.count
+    }
+    
     func fetchPerson(from URLString: String) async throws -> Person {
+        guard isValuePersonURL(URLString) else {
+            throw APIError.invalidURL
+        }
         return try await fetch(url: URLString, type: Person.self)
     }
     
