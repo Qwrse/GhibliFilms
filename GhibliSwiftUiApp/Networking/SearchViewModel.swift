@@ -22,7 +22,10 @@ class SearchViewModel {
     
     func fetch(for searchTerm: String) async {
         guard !searchTerm.isEmpty else {
-            state = .idle
+            if case .loaded = state {
+            } else {
+                state = .idle
+            }
             return
         }
         state = .loading
