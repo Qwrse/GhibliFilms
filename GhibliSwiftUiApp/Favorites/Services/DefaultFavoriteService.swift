@@ -8,7 +8,7 @@
 import Foundation
 
 struct DefaultFavoriteService: FavoriteService {
-    private var favoritesKey = "GhibliService.favoriteIds"
+    private let favoritesKey = "GhibliService.favoriteIds"
 
     func load() -> Set<String> {
         let array = UserDefaults.standard.stringArray(forKey: favoritesKey) ?? []
