@@ -56,7 +56,8 @@ struct MockGhibliService: GhibliService {
     /// - Parameter query: The query string to match.
     /// - Returns: The matching sample films.
     func searchFilms(matching query: String) async throws -> [Film] {
-        return []
+        let prompt = query.lowercased()
+        return try fetchFilms().filter { $0.title.lowercased().contains(prompt) }
     }
     
     // MARK: - for preview and testing only

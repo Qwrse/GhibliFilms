@@ -14,7 +14,6 @@ struct GhibliSwiftUiAppTests {
     @MainActor
     @Test func testIdle() async throws {
         let viewModel = SearchViewModel(service: service)
-        #expect(viewModel.state.data == nil)
         if case .idle = viewModel.state {
         } else {
             Issue.record("Expected idle state")
@@ -24,8 +23,13 @@ struct GhibliSwiftUiAppTests {
     @MainActor
     @Test func testTotoro() async throws {
         let viewModel = SearchViewModel(service: service)
-        await viewModel.fetch(for: "totoro")
-        #expect(viewModel.state.data?.count ?? 0 >= 1)
+        await viewModel.searchFilms(matching: "totoro")
+        switch viewModel.state {
+        case .loaded(let films):
+            #expect(films.count >= 1)
+        default:
+            Issue.record("Expected loaded state with results, got: \(viewModel.state)")
+        }
     }
 
 }
