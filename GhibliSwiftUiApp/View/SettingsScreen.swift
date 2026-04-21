@@ -7,17 +7,22 @@
 
 import SwiftUI
 
+/// Displays app settings.
 struct SettingsScreen: View {
+    /// Controls the delete confirmation dialog.
     @State private var showingDeleteConfirmation: Bool = false
-    @AppStorage("useLightMode") var useLightMode: Bool = false
+    /// Controls whether the app uses a light color scheme.
+    @AppStorage("useLightMode") var prefersLightMode: Bool = false
     
+    /// The favorites view model used to clear saved favorites.
     let favoritesViewModel: FavoritesViewModel
     
+    // MARK: - Body
     var body: some View {
         NavigationStack {
             List {
                 Section("Appearance") {
-                    Toggle(isOn: $useLightMode) {
+                    Toggle(isOn: $prefersLightMode) {
                         Text("Use light mode")
                     }
                 }
@@ -29,7 +34,7 @@ struct SettingsScreen: View {
                                         isPresented: $showingDeleteConfirmation,
                                         titleVisibility: .visible) {
                         Button("Delete", role: .destructive) {
-                            favoritesViewModel.removeAll()
+                            favoritesViewModel.removeAllFavorites()
                         }
                         Button("Cancel", role: .cancel) {}
                     } message: {

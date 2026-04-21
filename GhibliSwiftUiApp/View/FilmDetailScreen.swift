@@ -7,25 +7,39 @@
 
 import SwiftUI
 
+/// Displays detailed information for a selected film.
 struct FilmDetailScreen: View {
+    /// The film being displayed.
     let film: Film
-    @State var vm = FilmDetailViewModel()
+    /// The view model used to load related people.
+    @State var viewModel = FilmDetailViewModel()
+    /// The favorites view model used to update favorite state.
     let favoritesViewModel: FavoritesViewModel
     
+    /// Represents a label-value pair shown in the details grid.
     private struct Info: Identifiable {
+        /// The unique identifier for the item.
         let id = UUID()
+        /// The label displayed for the item.
         let title: String
-        let description: String
+        /// The value displayed for the item.
+        let value: String
         
-        init(_ title: String, _ description: String) {
+        /// Creates a detail item.
+        ///
+        /// - Parameters:
+        ///   - title: The display title.
+        ///   - value: The display value.
+        init(_ title: String, _ value: String) {
             self.title = title
-            self.description = description
+            self.value = value
         }
     }
     
+    // MARK: - Body
     var body: some View {
         ScrollView {
-            FilmImageView(urlPath: film.bannerImage)
+            FilmImageView(imageURLString: film.bannerImageURL)
                 .containerRelativeFrame(.horizontal)
                 .frame(minHeight: 200)
             
@@ -53,11 +67,11 @@ struct FilmDetailScreen: View {
                     }
                     GridRow {
                         Text("Running Time").bold()
-                        Text("\(film.duration) minutes")
+                        Text("\(film.runningTime) minutes")
                     }
                     GridRow {
                         Text("Score").bold()
-                        Text("\(film.score)/100")
+                        Text("\(film.rottenTomatoesScore)/100")
                     }
                     
                 }
@@ -66,9 +80,9 @@ struct FilmDetailScreen: View {
                 
                 Text("Description").font(.title3).bold()
                     .padding(.bottom, 5)
-                Text(film.description)
+                Text(film.synopsis)
                 
-                switch vm.state {
+                switch viewModel.state {
                 case .idle:
                     EmptyView()
                 case .loading:
@@ -82,7 +96,7 @@ struct FilmDetailScreen: View {
                     ForEach(people) { person in
                         Text(person.name)
                     }
-                case .error(let message):
+                case .error:
                     EmptyView()
                 }
             }
@@ -92,7 +106,7 @@ struct FilmDetailScreen: View {
             FavoriteButton(filmID: film.id, favoritesViewModel: favoritesViewModel)
         }
         .task {
-            await vm.fetch(for: film)
+            await viewModel.loadPeople(for: film)
         }
     }
 }

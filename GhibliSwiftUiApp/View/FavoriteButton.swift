@@ -7,14 +7,19 @@
 
 import SwiftUI
 
+/// Toggles the favorite state for a film.
 struct FavoriteButton: View {
+    /// The identifier of the film to update.
     let filmID: String
+    /// The favorites view model used to read and update favorite state.
     let favoritesViewModel: FavoritesViewModel
     
+    /// Indicates whether the current film is favorited.
     var isFavorite: Bool {
-        return favoritesViewModel.isFavorite(filmID: filmID)
+        favoritesViewModel.isFavorite(filmID: filmID)
     }
     
+    // MARK: - Body
     var body: some View {
         Button {
             favoritesViewModel.toggleFavorite(filmID: filmID)

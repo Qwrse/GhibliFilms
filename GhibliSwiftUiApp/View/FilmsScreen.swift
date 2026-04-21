@@ -7,10 +7,14 @@
 
 import SwiftUI
 
+/// Displays the main list of films.
 struct FilmsScreen: View {
+    /// The view model used to load films.
     let filmsViewModel: FilmsViewModel
+    /// The favorites view model used to update favorite state.
     let favoritesViewModel: FavoritesViewModel
 
+    // MARK: - Body
     var body: some View {
         NavigationStack {
             Group {
@@ -23,8 +27,8 @@ struct FilmsScreen: View {
                     }
                 case .loaded(let films):
                     FilmListView(films: films, favoritesViewModel: favoritesViewModel)
-                case .error(let error):
-                    Text(error)
+                case .error(let message):
+                    Text(message)
                         .foregroundColor(.pink)
                 }
             }

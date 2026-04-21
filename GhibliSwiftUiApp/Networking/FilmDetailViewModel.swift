@@ -8,38 +8,47 @@
 import Foundation
 
 
+/// Manages people related to a selected film.
 @Observable
 class FilmDetailViewModel {
+    /// Provides film and person data.
     let service: GhibliService
     
+    /// The current loading state for the film's people.
     var state: LoadingState<[Person]> = .idle
     
+    /// Creates a film detail view model.
+    ///
+    /// - Parameter service: The service used to load related people.
     init(service: GhibliService = DefaultGhibliService()) {
         self.service = service
     }
     
-    func fetch(for film: Film) async {
+    /// Loads the people related to the specified film.
+    ///
+    /// - Parameter film: The film whose people should be loaded.
+    func loadPeople(for film: Film) async {
         guard !state.isLoading else {
             return
         }
         state = .loading
-        var loadedPeople: [Person] = []
+        var people: [Person] = []
         do {
             try await withThrowingTaskGroup(of: Person.self) { group in
-                for personUrl in film.people {
+                for personURLString in film.peopleURLs {
                     group.addTask {
-                        try await self.service.fetchPerson(from: personUrl)
+                        try await self.service.fetchPerson(from: personURLString)
                     }
                 }
                 for try await person in group {
-                    loadedPeople.append(person)
+                    people.append(person)
                 }
-                state = .loaded(loadedPeople)
+                state = .loaded(people)
             }
         } catch let error as APIError {
-            state = .error(error.errorDescription ?? "unknow error")
+            state = .error(error.errorDescription ?? "Unknown error")
         } catch {
-            state = .error("unknow error")
+            state = .error("Unknown error")
         }
     }
 }
@@ -47,15 +56,15 @@ class FilmDetailViewModel {
 import Playgrounds
 
 #Playground {
-    let vm: FilmDetailViewModel = FilmDetailViewModel()
+    let viewModel = FilmDetailViewModel()
     let films = try MockGhibliService().fetchFilms()
     let film = films[1]
-    await vm.fetch(for: film)
-    if case let .loaded(people) = vm.state {
+    await viewModel.loadPeople(for: film)
+    if case let .loaded(people) = viewModel.state {
         for person in people {
             print(person)
         }
-    } else if case let .error(message) = vm.state {
+    } else if case let .error(message) = viewModel.state {
         print(message)
     }
 }

@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+/// Displays the user's favorited films.
 struct FavoritesScreen: View {
+    /// Provides the full film list used to derive favorites.
     let filmsViewModel: FilmsViewModel
+    /// Provides favorite state for films.
     let favoritesViewModel: FavoritesViewModel
 
-    var films: [Film] {
+    /// The subset of films that are currently favorited.
+    var favoriteFilms: [Film] {
         guard case let .loaded(allFilms) = filmsViewModel.state else {
             return []
         }
@@ -20,13 +24,14 @@ struct FavoritesScreen: View {
         }
     }
     
+    // MARK: - Body
     var body: some View {
         NavigationStack {
             Group {
-                if films.isEmpty {
+                if favoriteFilms.isEmpty {
                     ContentUnavailableView("No favorites yet", systemImage: "heart")
                 } else {
-                    FilmListView(films: films, favoritesViewModel: favoritesViewModel)
+                    FilmListView(films: favoriteFilms, favoritesViewModel: favoritesViewModel)
                 }
             }
                 .navigationTitle("Favorites")

@@ -7,21 +7,31 @@
 
 import Foundation
 
+/// Manages film search results.
 @Observable
 class SearchViewModel {
+    /// The current loading state for search results.
     var state: LoadingState<[Film]> = .idle
 
+    /// Provides film data for searching.
     @ObservationIgnored
     private let service: GhibliService
+    /// Stores the most recent query.
     @ObservationIgnored
-    private var lastSearchTerm = ""
+    private var lastQuery = ""
     
+    /// Creates a search view model.
+    ///
+    /// - Parameter service: The service used to search films.
     init(service: GhibliService = DefaultGhibliService()) {
         self.service = service
     }
     
-    func fetch(for searchTerm: String) async {
-        guard !searchTerm.isEmpty else {
+    /// Searches films that match the provided query.
+    ///
+    /// - Parameter query: The query string to match.
+    func searchFilms(matching query: String) async {
+        guard !query.isEmpty else {
             if case .loaded = state {
             } else {
                 state = .idle
@@ -29,14 +39,14 @@ class SearchViewModel {
             return
         }
         state = .loading
-        lastSearchTerm = searchTerm
+        lastQuery = query
         do {
-            let films = try await service.searchFilms(for: searchTerm)
+            let films = try await service.searchFilms(matching: query)
             state = .loaded(films)
         } catch let error as APIError {
-            state = .error(error.errorDescription ?? "unknow error")
+            state = .error(error.errorDescription ?? "Unknown error")
         } catch {
-            state = .error("unknow error")
+            state = .error("Unknown error")
         }
     }
 }

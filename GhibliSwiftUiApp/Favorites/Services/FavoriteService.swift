@@ -7,7 +7,10 @@
 
 import Foundation
 
+/// Defines persistence operations for favorite film identifiers.
 protocol FavoriteService {
-    func load() -> Set<String>
-    func save(favoriteIDs: Set<String>)
+    /// Loads the saved favorite film identifiers.
+    func loadFavoriteIDs() -> Set<String>
+    /// Persists the provided favorite film identifiers.
+    func saveFavoriteIDs(_ favoriteIDs: Set<String>)
 }

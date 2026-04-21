@@ -7,11 +7,16 @@
 
 import SwiftUI
 
+/// Displays film search results.
 struct SearchScreen: View {
+    /// The view model used to search films.
     let searchViewModel: SearchViewModel
+    /// The favorites view model used to update favorite state.
     let favoritesViewModel: FavoritesViewModel
-    @State private var text: String = ""
+    /// The current search text.
+    @State private var searchText: String = ""
     
+    // MARK: - Body
     var body: some View {
         NavigationStack {
             VStack {
@@ -31,13 +36,13 @@ struct SearchScreen: View {
                 }
             }
         }
-        .searchable(text: $text)
-        .task(id: text) {
+        .searchable(text: $searchText)
+        .task(id: searchText) {
             if let _ = try? await Task.sleep(for: .milliseconds(500)) {
-                print("searchViewMode.fetch for: \(text)")
-                await searchViewModel.fetch(for: text)
+                print("searchViewModel.searchFilms for: \(searchText)")
+                await searchViewModel.searchFilms(matching: searchText)
             } else {
-                print("Cantellation error")
+                print("Cancellation error")
             }
         }
     }

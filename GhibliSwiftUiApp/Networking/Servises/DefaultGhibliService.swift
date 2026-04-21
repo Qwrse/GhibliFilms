@@ -7,11 +7,19 @@
 
 import Foundation
 
+/// Fetches Studio Ghibli data from the live API.
 struct DefaultGhibliService: GhibliService {
+    /// A simple in-memory cache of all loaded films.
     static var allFilms: [Film]? = nil
     
-    private func fetch<T: Decodable>(url: String, type: T.Type) async throws -> T {
-        guard let url = URL(string: url) else {
+    /// Fetches and decodes a value from the given endpoint.
+    ///
+    /// - Parameters:
+    ///   - urlString: The endpoint URL string to request.
+    ///   - type: The expected decoded type.
+    /// - Returns: A decoded value of the requested type.
+    private func fetch<T: Decodable>(from urlString: String, as type: T.Type) async throws -> T {
+        guard let url = URL(string: urlString) else {
             throw APIError.invalidURL
         }
         
@@ -31,29 +39,42 @@ struct DefaultGhibliService: GhibliService {
         }
     }
     
+    /// Fetches all films, using cached results when available.
     func fetchFilms() async throws -> [Film] {
         if let films = Self.allFilms {
             return films
         }
-        let films = try await fetch(url: "https://ghibliapi.vercel.app/films", type: [Film].self)
+        let films = try await fetch(from: "https://ghibliapi.vercel.app/films", as: [Film].self)
         Self.allFilms = films
         return films
     }
     
-    private func isValuePersonURL(_ string: String) -> Bool {
+    /// Returns a Boolean value indicating whether the string is a valid person endpoint.
+    ///
+    /// - Parameter string: The URL string to validate.
+    /// - Returns: `true` if the URL string points to a person endpoint; otherwise, `false`.
+    private func isValidPersonURL(_ string: String) -> Bool {
         let prefix = "https://ghibliapi.vercel.app/people/"
         return string.hasPrefix(prefix) && string.count > prefix.count
     }
     
-    func fetchPerson(from URLString: String) async throws -> Person {
-        guard isValuePersonURL(URLString) else {
+    /// Fetches a person from the given endpoint URL string.
+    ///
+    /// - Parameter urlString: The endpoint URL string for the person.
+    /// - Returns: The decoded person.
+    func fetchPerson(from urlString: String) async throws -> Person {
+        guard isValidPersonURL(urlString) else {
             throw APIError.invalidURL
         }
-        return try await fetch(url: URLString, type: Person.self)
+        return try await fetch(from: urlString, as: Person.self)
     }
     
-    func searchFilms(for searchTerm: String) async throws -> [Film] {
+    /// Searches films whose titles match the provided query.
+    ///
+    /// - Parameter query: The query string to match.
+    /// - Returns: The films whose titles match the query.
+    func searchFilms(matching query: String) async throws -> [Film] {
         let films = try await fetchFilms()
-        return films.filter { $0.title.localizedStandardContains(searchTerm) }
+        return films.filter { $0.title.localizedStandardContains(query) }
     }
 }

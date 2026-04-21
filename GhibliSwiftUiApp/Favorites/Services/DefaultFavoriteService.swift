@@ -7,15 +7,19 @@
 
 import Foundation
 
+/// Stores favorite film identifiers in `UserDefaults`.
 struct DefaultFavoriteService: FavoriteService {
-    private let favoritesKey = "GhibliService.favoriteIds"
+    /// The storage key used for favorite identifiers.
+    private let favoritesStorageKey = "GhibliService.favoriteIds"
 
-    func load() -> Set<String> {
-        let array = UserDefaults.standard.stringArray(forKey: favoritesKey) ?? []
+    /// Loads favorite film identifiers from `UserDefaults`.
+    func loadFavoriteIDs() -> Set<String> {
+        let array = UserDefaults.standard.stringArray(forKey: favoritesStorageKey) ?? []
         return Set(array)
     }
     
-    func save(favoriteIDs: Set<String>) {
-        UserDefaults.standard.set(Array(favoriteIDs), forKey: favoritesKey)
+    /// Saves favorite film identifiers to `UserDefaults`.
+    func saveFavoriteIDs(_ favoriteIDs: Set<String>) {
+        UserDefaults.standard.set(Array(favoriteIDs), forKey: favoritesStorageKey)
     }
 }
